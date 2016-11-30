@@ -9,7 +9,7 @@
 	$slide_path = get_template_directory_uri();
 
 	if ( empty ( $slidethree_background ) ) :
-		$slidethree_background = $slide_path . "/images/bcg_slide-3.jpg";
+		$slidethree_background = $slide_path . "/images/sd-3.jpg";
 	endif;
 
 	$slidethree_url = "background-image:url( ' " . esc_url( $slidethree_background ) . " ' )";

@@ -8,7 +8,12 @@
  *
  */
 
-get_header( 'para' ); ?>
+
+get_header( 'para' );
+
+//Custom styles
+wp_enqueue_style('sd-home', get_template_directory_uri().'/css/sd-home.css');
+?>
 
 <?php //Load our options into variables
 	$front_intro     = get_theme_mod( 'harmonic_front_title' );

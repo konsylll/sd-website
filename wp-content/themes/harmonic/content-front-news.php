@@ -9,7 +9,7 @@
 	$slide_path = get_template_directory_uri();
 
 	if ( empty ( $slidetwo_background ) ) :
-		$slidetwo_background = $slide_path . "/images/bcg_slide-2.jpg";
+		$slidetwo_background = $slide_path . "/images/sd-2.jpg";
 	endif;
 
 	$slidetwo_url = "background-image:url( ' " . esc_url( $slidetwo_background ) . " ' )";

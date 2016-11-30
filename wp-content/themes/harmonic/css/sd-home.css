@@ -1,0 +1,10 @@
+.bcg {
+    background-size: cover;
+    background-position: center;
+}
+
+#footer-nav-wrapper, #masthead {
+    background-color: rgba(13,13,13,0.8);
+}
+
+
